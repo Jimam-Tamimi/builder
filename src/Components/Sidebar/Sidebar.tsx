@@ -42,7 +42,7 @@ export default function Sidebar({pageContent}:{pageContent:any}) {
   };
 
   return (
-    <div className="w-[22%] max-h-screen h-screen overflow-y-scroll p-5 scrollbar-hide select-none gap-4 flex flex-col dark:shadow-[0_0px_15px_#ffffff20] shadow-[0_0px_15px_#00000010]">
+    <div className={"w-[22%] max-h-screen h-screen overflow-y-scroll p-5 scrollbar-hide select-none gap-4 flex flex-col dark:shadow-[0_0px_15px_#ffffff20] shadow-[0_0px_15px_#00000010]"}>
       <h1 className="text-center text-3xl font-bold tracking-wide mb-4">{pageContent?.sidebar_title}</h1>
 
       {components.map((component, i) => (
