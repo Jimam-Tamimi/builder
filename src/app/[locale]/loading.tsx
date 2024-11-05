@@ -1,4 +1,4 @@
-import PreLoader from "@/Components/PreLoader";
+import PreLoader from "@/components/PreLoader";
 
  
 
